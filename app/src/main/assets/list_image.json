@@ -1,0 +1,77 @@
+﻿{
+  "total": 10,
+  "items": [
+    {
+      "id": 5,
+      "name": "Album Name 4",
+      "photoUrl": "https://kirspark.blob.core.windows.net/schoolapp1/albums/5/thumb1.jpg",
+      "count": 5,
+      "date": "2020-08-11T07:39:21.985831"
+    },
+    {
+      "id": 176,
+      "name": "qa",
+      "photoUrl": "https://kirspark.blob.core.windows.net/schoolapp1/albums/176/50c26004-cfb8-477c-9752-95e1a1b712b88279225168349903338.jpg",
+      "count": 12,
+      "date": "2020-08-10T06:33:42.851009"
+    },
+    {
+      "id": 139,
+      "name": "qa  my new album 😍",
+      "photoUrl": "https://kirspark.blob.core.windows.net/schoolapp1/albums/139/Screenshot_20200630-184556.jpg",
+      "count": 2,
+      "date": "2020-07-03T06:11:42.577152"
+    },
+    {
+      "id": 138,
+      "name": "myphoto album is",
+      "photoUrl": "https://kirspark.blob.core.windows.net/schoolapp1/albums/138/3bf0d6ad-27e3-4455-8555-dc33df97a0ed6830373226492596606.jpg",
+      "count": 4,
+      "date": "2020-06-30T13:16:23.009176"
+    },
+    {
+      "id": 134,
+      "name": "created using",
+      "photoUrl": "https://kirspark.blob.core.windows.net/schoolapp1/albums/134/Screenshot_20200625-111849.jpg",
+      "count": 4,
+      "date": "2020-06-30T13:04:08.554527"
+    },
+    {
+      "id": 132,
+      "name": "new album",
+      "photoUrl": "https://kirspark.blob.core.windows.net/schoolapp1/albums/132/8ec99ca9-20ae-4960-b8b0-87e2f1073a5e204392476810263355.jpg",
+      "count": 2,
+      "date": "2020-06-30T12:52:15.95977"
+    },
+    {
+      "id": 81,
+      "name": "hjjj",
+      "photoUrl": "https://kirspark.blob.core.windows.net/schoolapp1/albums/81/Screenshot_20200625-111849.jpg",
+      "count": 1,
+      "date": "2020-06-25T08:29:43.191944"
+    },
+    {
+      "id": 80,
+      "name": "njjj",
+      "photoUrl": "https://kirspark.blob.core.windows.net/schoolapp1/albums/80/Screenshot_20200625-112055.jpg",
+      "count": 1,
+      "date": "2020-06-25T08:02:13.040163"
+    },
+    {
+      "id": 76,
+      "name": "Covid-19 worldwide spreads. So all world economy very slow.",
+      "photoUrl": "https://kirspark.blob.core.windows.net/schoolapp1/albums/76/Screenshot_20200624-124145.jpg",
+      "count": 4,
+      "date": "2020-06-24T09:32:55.229408"
+    },
+    {
+      "id": 4,
+      "name": "Album Name 3",
+      "photoUrl": "https://kirspark.blob.core.windows.net/schoolapp1/albums/4/file2.jpg",
+      "count": 11,
+      "date": "2020-05-28T17:07:33.72123"
+    }
+  ],
+  "currentPage": 1,
+  "pageSize": 20
+}
