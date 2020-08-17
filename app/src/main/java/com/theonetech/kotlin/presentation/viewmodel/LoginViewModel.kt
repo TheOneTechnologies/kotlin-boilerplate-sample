@@ -123,10 +123,14 @@ class LoginViewModel(val context: Context, val binding: ActivityLoginBinding) : 
                             context.resources.getString(R.string.msg_success)
                         )
                     } else {
+                        val jsonObj = JSONObject(response.errorBody()!!.string())
+                        val jsonArrayErr=jsonObj.getJSONArray("errors")
+                        val jsonObjData=jsonArrayErr.getJSONObject(0);
+                        val message=jsonObjData.getString("message")
                         utils.onSNACK(
                             binding.rlMainLayout,
                             context,
-                            context.resources.getString(R.string.err_msg)
+                            message
                         )
                         loginLiveData.value=false
                     }

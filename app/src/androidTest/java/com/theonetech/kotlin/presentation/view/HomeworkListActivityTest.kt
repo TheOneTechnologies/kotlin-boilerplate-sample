@@ -75,7 +75,7 @@ class HomeworkListActivityTest {
 
     @Test
     fun testSuccessfulResponse() {
-        //Login API call with set valid user inputs to server
+        //HomeWorkList API call with set valid user inputs to server
         //Get the valid server response
         val response = MockResponse()
         response.setResponseCode(HttpURLConnection.HTTP_OK)

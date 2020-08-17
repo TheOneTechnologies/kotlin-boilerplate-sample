@@ -74,7 +74,7 @@ class PhotoGalleryActivityTest {
 
     @Test
     fun testSuccessfulResponse() {
-        //Login API call with set valid user inputs to server
+        //Album List API call with set valid user inputs to server
         //Get the valid server response
         val response = MockResponse()
         response.setResponseCode(HttpURLConnection.HTTP_OK)
@@ -87,8 +87,6 @@ class PhotoGalleryActivityTest {
 
         val mToken =
             "Bearer " + "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMTNlMmQ0NC00ZDE2LTQ0N2UtYTkwNy1iYTEwOWY3MjY2MWEiLCJqdGkiOiIyMDY2ZmEwYy0zN2I2LTRhYzQtYTk5MS1hMGFiYmQ0YWIyMTgiLCJpYXQiOjE1OTc0MTQ2ODgsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL25hbWUiOiJzdHVkZW50MTFfMUEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9naXZlbm5hbWUiOiJTdHVkZW50IFNjaG9vbCAxXzFBIiwiU0NIX0lEIjoiMSIsIlNURF9JRCI6IjEiLCJESVZfSUQiOiIzIiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiU3R1ZGVudCIsIm5iZiI6MTU5NzQxNDY4OCwiZXhwIjoxNTk3NTAxMDg4LCJpc3MiOiJQb3J0YWxBdXRoZW50aWNhdGlvblNlcnZpY2UiLCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjUwMDEvIn0.swQ39yDNlptQD1SMDjNG_kLr6ITu7ksO4VZ9CL9Dzl8"
-
-        val apiResponse: Response<Any?>? = null
 
         try {
             val call: Call<ResponseBody?>? = mApiService?.getAlbumList(mToken, 1, 20)
